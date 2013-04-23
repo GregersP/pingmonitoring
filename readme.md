@@ -36,13 +36,5 @@ Levende eksempel:
 */5 * * * * /home/pi/monitoring/ping.sh moss.gpweb.dk /home/pi/monitoring/rrds/ping_moss.gpweb.dk.rrd 
 2,7,12,17,22,27,32,37,42,47,52,57 * * * * /home/pi/monitoring/ping_graph.sh /home/pi/monitoring/rrds/ping_moss.gpweb.dk.rrd /home/pi/monitoring/html/ moss.gpweb.dk
 
-# Merkur
-*/5 * * * * /home/pi/monitoring/ping.sh merkur.septima.dk /home/pi/monitoring/rrds/ping_merkur.septima.dk.rrd 
-2,7,12,17,22,27,32,37,42,47,52,57 * * * * /home/pi/monitoring/ping_graph.sh /home/pi/monitoring/rrds/ping_merkur.septima.dk.rrd /home/pi/monitoring/html/ merkur.septima.dk
-
-# Septima G.SHDSL
-*/5 * * * * /home/pi/monitoring/ping.sh 81.31.90.98 /home/pi/monitoring/rrds/ping_81.31.90.98.rrd 
-2,7,12,17,22,27,32,37,42,47,52,57 * * * * /home/pi/monitoring/ping_graph.sh /home/pi/monitoring/rrds/ping_81.31.90.98.rrd /home/pi/monitoring/html/ "Septima_G.SHDSL_(81.31.90.98)"
-
 
 ´´´
