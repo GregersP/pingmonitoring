@@ -9,7 +9,10 @@ cd $2
 # Then make the HTML-file
 echo "
 <HTML>
-<HEAD><TITLE>Round-Trip and Packet Loss Stats</TITLE></HEAD>
+<HEAD>
+<TITLE>Round-Trip and Packet Loss Stats</TITLE>
+<meta http-equiv="refresh" content="300" >
+</HEAD>
 <BODY>
 <h1>Monitoring of $3</h1>
 <H3>Hourly Round-Trip & Packetloss Stats(1min average)</H3>
