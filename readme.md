@@ -29,7 +29,7 @@ Og ping_graph.sh til at opdatere graferne med
 
 
 Levende eksempel:
-´´´
+```
 # Telenor router
 */5 * * * * /home/pi/monitoring/ping.sh 10.0.0.1 /home/pi/monitoring/rrds/ping_10.0.0.1.rrd 
 2,7,12,17,22,27,32,37,42,47,52,57 * * * * /home/pi/monitoring/ping_graph.sh /home/pi/monitoring/rrds/ping_10.0.0.1.rrd /home/pi/monitoring/html/ 10.0.0.1
@@ -37,6 +37,4 @@ Levende eksempel:
 # Tysk server
 */5 * * * * /home/pi/monitoring/ping.sh moss.gpweb.dk /home/pi/monitoring/rrds/ping_moss.gpweb.dk.rrd 
 2,7,12,17,22,27,32,37,42,47,52,57 * * * * /home/pi/monitoring/ping_graph.sh /home/pi/monitoring/rrds/ping_moss.gpweb.dk.rrd /home/pi/monitoring/html/ moss.gpweb.dk
-
-
-´´´
+```
